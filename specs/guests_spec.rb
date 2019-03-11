@@ -19,9 +19,4 @@ class GuestTest < MiniTest::Test
   def test_jam
     assert_equal("That's my jam right there!", @guest.jam)
   end
-
-  # def tets_buy_ticket
-  #   @guest.buy_ticket(@entry_fee)
-  #   assert_equal(47, @guest.wallet)
-  # end
 end
